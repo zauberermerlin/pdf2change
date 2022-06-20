@@ -1,0 +1,11 @@
+0.1: erste Version
+
+0.2: Fehlerbehebung: von Scan2Pdf kann auch ein TIFF-Bild (Endung .tif)
+		übergeben werden;
+		Software ist dann zu beenden bzw. nur bei einer zu speichernden
+		pdf-Datei auszuführen
+	
+	Debug-Funktion eingeführt: Parameter -debug
+		Umsetzung als JOptionPane.showMessageDialog Fenster
+		Umsatzung als neue Klasse "Debug"
+		

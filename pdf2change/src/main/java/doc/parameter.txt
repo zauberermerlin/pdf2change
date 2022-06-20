@@ -1,0 +1,44 @@
+@startuml
+== Parameter
+
+
+=== -h oder -help
+Ist vorrangig zu allem anderen Parametern.
+Andere Parameter werden ignoriert.
+Hilfsmitext wird ausgegeben und Programm beendet
+
+=== -gui
+Ohne Angabe "aus": das Programm wird im Konsolen-Modus aufgerufen.
+
+In der gui-Verions:
+Eigenes Register ???
+
+Ruft das gui des Programms auf.
+Implementierung erst mit Version 2.x
+
+=== -konfig
+Ohne Angabe "aus" bzw. "Konfi-Datei wird nicht geladen"
+Laed die Konfiguration fuer die im gui hinterlegten Vorgaben.
+Name der konfig-Datei ist im Programmcode festgelegt.
+
+Implementierung erst mit Version 2.x
+
+=== -verfasser _[name]_
+In Konsolenversion wird genau ein Verfasser festgelegt.
+In gui-Version event. ueber Parameter konig steuerbar.
+
+=== -debug
+Ohne Angabe "aus".
+
+In der Konsolen-Version:
+Ausgabe im JOptionPane - Fenstern
+
+=== -check_verfasser
+Überprüft, ob das Feld Verfasser gefüllt ist;
+Wenn gefüllt, dann Ausgabe des Dateinamens mit dem Inhalt
+
+=== -clear_horland
+Wenn das Feld Verfasser mit "Horland" gefüllt ist,
+dann wird das Programm darauf angewendet
+
+@enduml

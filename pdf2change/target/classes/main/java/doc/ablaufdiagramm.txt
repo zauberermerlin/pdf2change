@@ -1,0 +1,6 @@
+== Ablaufdiagramm Parameter
+
+== -h oder -help
+Ist vorrangig zu allem anderen
+Hilfsmitext wird ausgegeben und Programm beendet
+
