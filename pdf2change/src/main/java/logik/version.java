@@ -7,6 +7,7 @@ public class version {
 		System.out.println("Build / Gebaut: 23.01.2022");
 		// neu; prg wird nur bei Übergabe einer pdf-Datei ausgeführt
 		System.out.println("Build / Gebaut: 25.02.2022");
+		System.out.println("Github: 29.06.2022");
 	}
 	
 	
